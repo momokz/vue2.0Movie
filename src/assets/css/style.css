@@ -1,0 +1,64 @@
+body, button, input, select, textarea {
+    font: .24rem/.24rem microsoft yahei, Arial;
+}
+a, abbr, address, article, aside, audio, b, blockquote, body, canvas, caption, cite, code, datalist, dd, del, details, dfn, dl, div, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, ins, kbd, keygen, label, legend, li, meter, nav, menu, object, ol, output, p, pre, progress, q, s, samp, section, small, span, source, strong, sub, sup, table, tbody, tfoot, thead, th, tr, td, video, u, ul, var, input, select {
+    margin: 0;
+    padding: 0;
+}
+input, button, textarea {
+    border: none;
+    border-radius: 0;
+    outline: none;
+}
+button {
+    border: none;
+}
+input[type='button'] {
+    background: none;
+}
+input::-webkit-input-placeholder {
+    font-family: microsoft yahei, Arial;
+    font-size: .24rem;
+    color: #666;
+}
+input[type='text'], input[type='password'], input[type='button'], textarea {
+    outline: none;
+
+    -webkit-appearance: none;
+            appearance: none;
+}
+ul, ol {
+    list-style: none;
+}
+img {
+    display: block;
+    width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+em, i {
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    outline: none;
+}
+.clearfix::after {
+    font-size: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    content: '.';
+}
+/* css */
+body {
+    font-size: .24rem;
+    display: none;
+    max-width: 6.4rem;
+    min-height: 11.36rem;
+    margin: 0 auto;
+    color: #555;
+    background: #eee;
+}
