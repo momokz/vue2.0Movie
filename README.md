@@ -1,6 +1,6 @@
 # vue2.0-movie
 
-> A Vue.js project
+> vue2.0 movie, data is from douban
 
 ## Build Setup
 
